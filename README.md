@@ -1,5 +1,22 @@
 
-## Usage
+## What
+
+A handy NSView category for disabling & enabling views in a Cocoa App.
+
+## How
+
+### Install
+
+Simply add NSView+DisableSubviews.h and NSView+DisableSubviews.m files to your Xcode project and import NSView+DisableSubviews.h header file whereever you want to call one of the disableSubviews: methods.
+
+### Use
+
+Disable all subviews in an NSWindow:
+    [self.window.contentView disableSubviews:YES];
+
+Disable all NSTextField items in an NSWindow:
+    [self.window.contentView disableSubviews:YES
+                                      ofType:[NSTextField class]];
 
 ## License
 
