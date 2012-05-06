@@ -57,4 +57,6 @@ See LICENSE.txt or visit http://www.apache.org/licenses/LICENSE-2.0 for more inf
 
 ## Screenshot
 
+Demo app:
+
 ![Screenshot from the Demo app](http://farm9.staticflickr.com/8024/7002073288_0648517d65_z.jpg)
