@@ -17,10 +17,34 @@ Disable all subviews in an *NSWindow*:
 
     [self.window.contentView disableSubviews:YES];
 
-Disable all *NSTextField* items in an *NSWindow*:
+Disable all *NSTextField*s in an *NSWindow*:
 
     [self.window.contentView disableSubviews:YES
                                       ofType:[NSTextField class]];
+
+Disable all empty *NSTextField*s in an *NSWindow*:
+
+    [self.window.contentView disableSubviews:YES
+                                      filter:^BOOL (NSView *v) {
+                                          return [v isKindOfClass:[NSTextField class]] &&
+                                                 (((NSTextField *) v).stringValue.length < 1);
+                                      }];
+
+Disable views in a specified tag range in an *NSWindow*:
+
+    [self.window.contentView disableSubviews:YES
+                                    startTag:3
+                                      endTag:7];
+
+Disable views with specified tags in an *NSWindow*:
+
+    [self.window.contentView disableSubviews:YES
+                                    withTags:[NSArray arrayWithObjects:
+                                              [NSNumber numberWithInt:2],
+                                              [NSNumber numberWithInt:5],
+                                              [NSNumber numberWithInt:8], nil]];
+
+You can group certain UI elements using *NSBox*es or *NSView*s and call *disableSubviews:* methods on them to obtain more flexibility, if you need.
 
 ## License
 
