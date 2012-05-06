@@ -1,7 +1,9 @@
 
 ## What
 
-A handy NSView category for disabling & enabling views in a Cocoa App.
+A handy NSView category for disabling & enabling views in a Cocoa App.  
+
+Questions and comments are welcome - http://twitter.com/ardalahmet or ardalahmet(at)gmail.com
 
 ## How
 
@@ -13,16 +15,16 @@ Simply add *NSView+DisableSubviews.h* and *NSView+DisableSubviews.m* files to yo
 
 ### Use
 
-Disable all subviews in an *NSWindow*:
+Disable all subviews in an NSWindow:
 
     [self.window.contentView disableSubviews:YES];
 
-Disable all *NSTextField*s in an *NSWindow*:
+Disable all NSTextFields in an NSWindow:
 
     [self.window.contentView disableSubviews:YES
                                       ofType:[NSTextField class]];
 
-Disable all empty *NSTextField*s in an *NSWindow*:
+Disable all empty NSTextFields in an NSWindow:
 
     [self.window.contentView disableSubviews:YES
                                       filter:^BOOL (NSView *v) {
@@ -30,13 +32,13 @@ Disable all empty *NSTextField*s in an *NSWindow*:
                                                  (((NSTextField *) v).stringValue.length < 1);
                                       }];
 
-Disable views in a specified tag range in an *NSWindow*:
+Disable views in a specified tag range in an NSWindow:
 
     [self.window.contentView disableSubviews:YES
                                     startTag:3
                                       endTag:7];
 
-Disable views with specified tags in an *NSWindow*:
+Disable views with specified tags in an NSWindow:
 
     [self.window.contentView disableSubviews:YES
                                     withTags:[NSArray arrayWithObjects:
@@ -44,7 +46,7 @@ Disable views with specified tags in an *NSWindow*:
                                               [NSNumber numberWithInt:5],
                                               [NSNumber numberWithInt:8], nil]];
 
-You can group certain UI elements using *NSBox*es or *NSView*s and call *disableSubviews:* methods on them to obtain more flexibility, if you need.
+You can group certain UI elements using NSBoxes or NSViews and call *disableSubviews:* methods on them to obtain more flexibility, if you need.
 
 ## License
 
