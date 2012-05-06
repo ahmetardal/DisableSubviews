@@ -1,7 +1,7 @@
 
 ## What
 
-A handy NSView category for disabling & enabling views in Cocoa apps.  
+A handy NSView category for disabling & enabling UI elements in Cocoa apps.  
 
 Questions and comments are welcome - http://twitter.com/ardalahmet or ardalahmet(at)gmail.com
 
