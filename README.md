@@ -12,9 +12,11 @@ Simply add *NSView+DisableSubviews.h* and *NSView+DisableSubviews.m* files to yo
 ### Use
 
 Disable all subviews in an *NSWindow*:
+
     [self.window.contentView disableSubviews:YES];
 
 Disable all *NSTextField* items in an *NSWindow*:
+
     [self.window.contentView disableSubviews:YES
                                       ofType:[NSTextField class]];
 
