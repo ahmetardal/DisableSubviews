@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59993B6B15566A19005244AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59993B6A15566A19005244AF /* Cocoa.framework */; };
+		59993B7515566A19005244AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59993B7315566A19005244AF /* InfoPlist.strings */; };
+		59993B7715566A19005244AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59993B7615566A19005244AF /* main.m */; };
+		59993B7B15566A19005244AF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 59993B7915566A19005244AF /* Credits.rtf */; };
+		59993B7E15566A19005244AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59993B7D15566A19005244AF /* AppDelegate.m */; };
+		59993B8115566A19005244AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59993B7F15566A19005244AF /* MainMenu.xib */; };
+		59993B8915566FA5005244AF /* NSView+DisableSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 59993B8815566FA5005244AF /* NSView+DisableSubviews.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59993B6615566A18005244AF /* DisableSubviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisableSubviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59993B6A15566A19005244AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		59993B6D15566A19005244AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		59993B6E15566A19005244AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		59993B6F15566A19005244AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59993B7215566A19005244AF /* DisableSubviews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DisableSubviews-Info.plist"; sourceTree = "<group>"; };
+		59993B7415566A19005244AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59993B7615566A19005244AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59993B7815566A19005244AF /* DisableSubviews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DisableSubviews-Prefix.pch"; sourceTree = "<group>"; };
+		59993B7A15566A19005244AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		59993B7C15566A19005244AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59993B7D15566A19005244AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59993B8015566A19005244AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		59993B8715566FA5005244AF /* NSView+DisableSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+DisableSubviews.h"; sourceTree = "<group>"; };
+		59993B8815566FA5005244AF /* NSView+DisableSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+DisableSubviews.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59993B6315566A18005244AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B6B15566A19005244AF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59993B5B15566A18005244AF = {
+			isa = PBXGroup;
+			children = (
+				59993B7015566A19005244AF /* DisableSubviews */,
+				59993B6915566A18005244AF /* Frameworks */,
+				59993B6715566A18005244AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59993B6715566A18005244AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59993B6615566A18005244AF /* DisableSubviews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59993B6915566A18005244AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59993B6A15566A19005244AF /* Cocoa.framework */,
+				59993B6C15566A19005244AF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59993B6C15566A19005244AF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59993B6D15566A19005244AF /* AppKit.framework */,
+				59993B6E15566A19005244AF /* CoreData.framework */,
+				59993B6F15566A19005244AF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		59993B7015566A19005244AF /* DisableSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				59993B7C15566A19005244AF /* AppDelegate.h */,
+				59993B7D15566A19005244AF /* AppDelegate.m */,
+				59993B7F15566A19005244AF /* MainMenu.xib */,
+				59993B8715566FA5005244AF /* NSView+DisableSubviews.h */,
+				59993B8815566FA5005244AF /* NSView+DisableSubviews.m */,
+				59993B7115566A19005244AF /* Supporting Files */,
+			);
+			path = DisableSubviews;
+			sourceTree = "<group>";
+		};
+		59993B7115566A19005244AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59993B7215566A19005244AF /* DisableSubviews-Info.plist */,
+				59993B7315566A19005244AF /* InfoPlist.strings */,
+				59993B7615566A19005244AF /* main.m */,
+				59993B7815566A19005244AF /* DisableSubviews-Prefix.pch */,
+				59993B7915566A19005244AF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59993B6515566A18005244AF /* DisableSubviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59993B8415566A19005244AF /* Build configuration list for PBXNativeTarget "DisableSubviews" */;
+			buildPhases = (
+				59993B6215566A18005244AF /* Sources */,
+				59993B6315566A18005244AF /* Frameworks */,
+				59993B6415566A18005244AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisableSubviews;
+			productName = DisableSubviews;
+			productReference = 59993B6615566A18005244AF /* DisableSubviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59993B5D15566A18005244AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "SpinningSphere Labs";
+			};
+			buildConfigurationList = 59993B6015566A18005244AF /* Build configuration list for PBXProject "DisableSubviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59993B5B15566A18005244AF;
+			productRefGroup = 59993B6715566A18005244AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59993B6515566A18005244AF /* DisableSubviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59993B6415566A18005244AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B7515566A19005244AF /* InfoPlist.strings in Resources */,
+				59993B7B15566A19005244AF /* Credits.rtf in Resources */,
+				59993B8115566A19005244AF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59993B6215566A18005244AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59993B7715566A19005244AF /* main.m in Sources */,
+				59993B7E15566A19005244AF /* AppDelegate.m in Sources */,
+				59993B8915566FA5005244AF /* NSView+DisableSubviews.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59993B7315566A19005244AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59993B7415566A19005244AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59993B7915566A19005244AF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59993B7A15566A19005244AF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		59993B7F15566A19005244AF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59993B8015566A19005244AF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59993B8215566A19005244AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		59993B8315566A19005244AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59993B8515566A19005244AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisableSubviews/DisableSubviews-Prefix.pch";
+				INFOPLIST_FILE = "DisableSubviews/DisableSubviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59993B8615566A19005244AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DisableSubviews/DisableSubviews-Prefix.pch";
+				INFOPLIST_FILE = "DisableSubviews/DisableSubviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59993B6015566A18005244AF /* Build configuration list for PBXProject "DisableSubviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993B8215566A19005244AF /* Debug */,
+				59993B8315566A19005244AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59993B8415566A19005244AF /* Build configuration list for PBXNativeTarget "DisableSubviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59993B8515566A19005244AF /* Debug */,
+				59993B8615566A19005244AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59993B5D15566A18005244AF /* Project object */;
+}
