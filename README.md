@@ -9,6 +9,8 @@ A handy NSView category for disabling & enabling views in a Cocoa App.
 
 Simply add *NSView+DisableSubviews.h* and *NSView+DisableSubviews.m* files to your Xcode project and import *NSView+DisableSubviews.h* header file wherever you want to call one of the *disableSubviews:* methods.
 
+    #import "NSView+DisableSubviews.h"
+
 ### Use
 
 Disable all subviews in an *NSWindow*:
