@@ -46,7 +46,9 @@ Disable views with specified tags in an NSWindow:
                                               [NSNumber numberWithInt:5],
                                               [NSNumber numberWithInt:8], nil]];
 
-You can group certain UI elements using NSBoxes or NSViews and call *disableSubviews:* methods on them to obtain more flexibility, if you need.
+You can group certain UI elements using NSBoxes or NSViews and call *disableSubviews:* methods on them to obtain more flexibility, if you need.  
+
+Xcode project includes a simple Mac app with some nice examples on what you can do with *disableSubviews:* methods.
 
 ## License
 
