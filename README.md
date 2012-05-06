@@ -54,3 +54,7 @@ Xcode project includes a simple Mac app with some nice examples on what you can 
 
 Licensed under the Apache License, Version 2.0 (the "License").  
 See LICENSE.txt or visit http://www.apache.org/licenses/LICENSE-2.0 for more information.
+
+## Screenshot
+
+![Screenshot from the Demo app](http://farm9.staticflickr.com/8024/7002073288_0648517d65_z.jpg)
